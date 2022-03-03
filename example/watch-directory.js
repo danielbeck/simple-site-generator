@@ -1,6 +1,6 @@
 var chokidar = require('chokidar');
 
-var dir = "./src/";
+var dir = "./data/";
 
 var watcher = chokidar.watch(dir, {ignored: /^\./, persistent: true});
 
