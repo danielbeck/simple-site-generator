@@ -1,0 +1,25 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+#VSCode project files
+.vscode
+
+# Frameworks files
+node_modules
+public
+.env
+deploy.zip
+deploy
+
+# Styleguide build
+styleguide
+!src/styleguide
+
+npm-debug.log
+local.json*
+local-*.json*
+.DS_Store
+*~
